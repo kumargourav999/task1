@@ -45,25 +45,16 @@ const Dashboard = () => {
 
 }, 1000);
   
-    
-    
-    
+  const filteredData = mergedData.filter((item) => {
   
-  
-   
-  
-  
-  // Inside the List component or wherever data filtering is handled
-const filteredData = mergedData.filter((item) => {
-  // Check if item and item.name exist before calling toLowerCase()
   return item && item.uk && item.uk.toLowerCase().includes(searchText.toLowerCase());
 });
 
-// Then use filteredData to render the list
+
 
 
   
-  return (
+x  return (
     <div>
       <div className={styles.header}>
         <HeaderTitle primaryTitle="Orders" secondaryTitle={length}/>
