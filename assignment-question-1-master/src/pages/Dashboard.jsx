@@ -2,7 +2,7 @@ import { useState } from "react";
 
 
 
-// Data
+
 import mockData from "../assets/data.json";
 import timeStamps from "../assets/timeStamps.json";
 
